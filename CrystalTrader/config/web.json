@@ -1,0 +1,11 @@
+{
+  "Web": {
+    "Enabled": true,
+    "DebugMode": false,
+    "ReadOnlyMode": false,
+    "Port": 7000,
+    "SSLEnabled": false,
+    "SSLCertPath": "data/cert.pfx",
+    "SSLCertPassword": "certpass"
+  }
+}

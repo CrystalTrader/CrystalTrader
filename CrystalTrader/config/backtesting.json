@@ -1,0 +1,18 @@
+﻿{
+  "Backtesting": {
+    "Enabled": false,
+    "Replay": false,
+    "ReplayOutput": true,
+    "ReplaySpeed": 50,
+    "ReplayStartIndex": null,
+    "ReplayEndIndex": null,
+    "DeleteLogs": true,
+    "DeleteAccountData": true,
+    "CopyAccountDataPath": null,
+    "TradingSpeedEasing": 0,
+    "TradingRulesSpeedEasing": 0,
+    "SignalRulesSpeedEasing": 0,
+    "SnapshotsInterval": 1,
+    "SnapshotsPath": "data/backtesting"
+  }
+}

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Services\**" />
+    <EmbeddedResource Remove="Services\**" />
+    <None Remove="Services\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CrystalTrader.Core\CrystalTrader.Core.csproj" />
+    <ProjectReference Include="..\CrystalTrader.Exchange.Base\CrystalTrader.Exchange.Base.csproj" />
+  </ItemGroup>
+
+</Project>

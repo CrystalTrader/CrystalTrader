@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CrystalTrader.Core\CrystalTrader.Core.csproj" />
+    <ProjectReference Include="..\CrystalTrader.Exchange.Base\CrystalTrader.Exchange.Base.csproj" />
+    <ProjectReference Include="..\CrystalTrader.Signals.Base\CrystalTrader.Signals.Base.csproj" />
+  </ItemGroup>
+</Project>
