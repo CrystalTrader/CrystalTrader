@@ -1,9 +1,0 @@
-{
-  "Notification": {
-    "Enabled": false,
-    "TelegramEnabled": true,
-    "TelegramBotToken": "",
-    "TelegramChatId": 0,
-    "TelegramAlertsEnabled": true
-  }
-}
